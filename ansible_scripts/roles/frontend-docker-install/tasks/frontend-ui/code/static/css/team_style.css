@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   /* background-image: url("/static/imgs/bg8.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%
+    
+}
+
+.navbar-brand {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(225deg, #ff5ea7 36.04%, #ff6530 220.3%);
+}
+
+.card-img-top {
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
+    background-color: #d5ecc2;
+    /* background-image: url("/static/imgs/bg8.jpg"); */
+
+}
+
+/* 
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}  */
+
+.card-text {
+    font-family: Verdana, sans-serif;
+}
+
+.card-title{
+    font-size: 26px;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-family: Verdana, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(225deg, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+}
+
+#zee.card {
+    margin-bottom: 30px;
+}
+
+/* #zee.card.card-img-top {
+    width: 100px;
+} */

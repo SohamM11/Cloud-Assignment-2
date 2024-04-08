@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'roboto-med';
+  src: url("/static/fonts/Roboto-Medium.ttf");
+}
+
+body {
+    background-color: #000;
+    /*background-image: url("/static/imgs/bg8.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'roboto-med';
+}
+ .container{
+    width:90%;
+}
+.navbar-brand {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(225deg, #ff5ea7 36.04%, #ff6530 220.3%);
+}
+
+#mapTweetDashboard {
+    margin-left:25%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-family: Verdana, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(225deg, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+    width:60%;
+}
+
+#tweetDashboard{
+    margin-left:30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: Verdana, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(225deg, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+    width:40%;
+}
+
+#horzBar{
+    margin-left: 5%;
+    width: 35%;
+
+}
+#topicsPie {
+    margin-left: auto;
+
+}
+#dayBars1{
+    margin-left: 5%;
+    width: 35%;
+    padding-left: 20px;
+}
+#hourBars2 {
+    margin-left: auto;
+    margin-right: 5%;
+
+}
+
+
+#mapCluster {
+    margin-left:20%;
+    margin-right: 80px;
+    height: 500px;
+    width: 800px;
+}
+
+.mapCluster {
+    margin-left:20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 500px;
+    width: 800px;
+}
+
+.map_title2{
+    margin-left:40%;
+    margin-bottom: 2%;
+    color:#fff;
+    font-weight: thin;
+}
+
+
+.plot_rows {
+    margin-top: 2%;
+}
+
+.map_row{
+    margin-top: 10%;
+}
+
+.map_title{
+    margin-left:25%;
+    margin-bottom: 2%;
+    color:#fff;
+    font-weight: thin;
+}
+
+select{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2px;
+    padding-bottom: 1px;
+    display: block;
+    /* background-color: transparent; */
+    border: none;
+    font-size: large;
+    background-color:  '#000';
+    color: '#fff';
+    outline: none;
+}
+#rowW {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#colW{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
